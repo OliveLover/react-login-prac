@@ -1,5 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
 .container {
-    background-color: green;
-    height: 100vh;
-    width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.registerWrapper {
+  background-color: white;
+  box-sizing: border-box;
+  padding: 40px;
+  height: 500px;
+  width: 450px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.registerWrapper > h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.registerWrapper > p {
+  margin-bottom: 50px;
+}
+
+.idWrapper {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 15px;
+}
+
+.idForm {
+  width: 100%;
+  height: 48px;
+  border-radius: 6px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+}
+
+.idWrapper > button {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25%;
+  height: 40px;
+  border: none;
+  background-color: #6a24fe;
+  border-radius: 6px;
+  color: white;
+}
+
+.passwordForm {
+  width: 100%;
+  height: 48px;
+  border-radius: 6px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  margin-top: 15px;
 }

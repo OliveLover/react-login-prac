@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import style from "./login.module.css";
 
 const login = () => {
@@ -10,6 +11,9 @@ const login = () => {
           <input type="password" name="password" placeholder="Password"></input>
           <input type="submit"></input>
         </form>
+        <div className={style.registerWrapper}>
+          <Link to="/register">회원가입</Link>
+        </div>
       </div>
     </div>
   );

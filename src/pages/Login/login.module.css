@@ -48,3 +48,10 @@
   background-color: #6a24fe;
   margin-top: 20px;
 }
+
+.registerWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
